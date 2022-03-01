@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+p {
+    font-size: 0.9rem;
+    padding-top: 5pt;
+}
+  
+a {
+    font-size: 0.9rem;
+    color: #00008B;
+    text-decoration: none;
+}
+  
+a:visited {
+    font-size: 0.9rem;
+    color: #00008B;
+    text-decoration: none;
+}
+  
+a:active {
+    font-size: 0.9rem;
+    color: #00008B;
+    text-decoration: none;
+}
+  
+a:hover {
+    font-size: 0.9rem;
+    color: #00008B;
+    font-weight: bold;
+}
+  
+img {
+    border-radius: 50%;
+    width: 10%;
+    justify-content: center;
+}
+  
+  
+:root {
+    --color-bg: #FFFFFF;
+    --wrapper-height: 87vh;
+    --image-max-width: 300px;
+    --image-margin: 3rem;
+}
+  
+* {
+    box-sizing: border-box;
+  }
+  [hidden] {
+    display: none !important;
+}
+  
+.divider {
+    padding: 0 1rem;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: var(--color-bg);
+}
+  
+.wrapper {
+    min-height: var(--wrapper-height);
+    display: grid;
+    place-items: center;
+    margin: 0 1rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+.title {
+    color: #000000;
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 105%;
+    margin: 0;
+}
+  
+.illustration {
+    max-width: 100%;
+    max-height: var(--image-max-width);
+    margin-top: var(--image-margin);
+}
+  
+.instructions {
+    margin: 1rem auto 0;
+}
+  
+button, input {
+    font-family: inherit;
+    font-size: 100%;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    transition: 500ms;
+}
+  
+h2 {
+    color: #000000;
+}
+  
+.illustration:active {
+    transform: translateY(5px);
+}
+  
+.dipped {
+    transform: translateY(5px);
+}
+  
+.img-div {
+    align-items: center;
+    justify-content: center;
+}
+  
+.column {
+    float: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+  
+.row {
+    content: "";
+    display: table;
+    clear: both;
+    height: 200px;
+    margin: auto;
+    width: 70%;
+    max-width: 1300px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+  
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-bottom: 30px;
+}
